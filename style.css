@@ -1,0 +1,325 @@
+body{
+    /* background-image: url(background.jpg); */
+    /* filter: brightness(50%); */
+    background-color: black;
+    font-family: "Ubuntu", sans-serif;
+    width: 100%;
+    /* overflow: hidden; */
+
+    
+}
+.background{
+    background-image: url(background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    z-index: -1;
+}
+.overlay {
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7); 
+    z-index: 1;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+}
+.netflix-logo img{
+    width: 9.5rem;
+    height: 5rem;
+    margin-left: 6rem;
+    margin-top: 0.5rem;
+    position: absolute;
+
+}
+.sign-in{
+    position: absolute;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    margin-top: 2rem;
+    margin-left: 1000px;
+    padding-right: 10px;
+ 
+}
+#select{
+    margin-left: 10px;
+    height: 25px;
+    width: 100px;
+    background-color: transparent;
+    color: white;
+    margin-top: 2rem;
+    border-radius: 5px;
+    justify-content: center;
+}
+.button-sign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    padding: 10px;
+}
+.button-sign button{
+    border: none;
+    height: 25px;
+    width: 72px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    color: white;
+}
+.main{
+    position: relative;
+    z-index: 2;
+    
+}
+.heading h1{
+    margin-top: 13rem;
+    width: 500px;
+    height: 78px;
+    font-size: 3.5rem;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+}
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 40px;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.heading-bio p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 25px;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+.email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.email input{
+    height: 45px;
+    width: 324px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid grey;
+    color: white;
+}
+.email input::placeholder{
+    color: lightgrey;
+    /* margin-left: 5px; */
+    padding: 5px;
+}
+.email button{
+    margin-left: 8px;
+    height: 45px;
+    width: 180px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 23px;
+}
+.email i{
+    padding-left: 5px;
+}
+
+.line{
+    margin-top: 5rem;
+    width: 100%;
+    height: 6.26rem;
+    background: radial-gradient(50% 500% at 50% -420%, rgba(64, 97, 231, 0.4) 80%, rgba(0, 0, 0, 0.1) 100%), black;
+    position: relative;
+    border-top: 5px solid purple ;
+    z-index: 3;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
+
+}
+
+.heading-now h3{
+    color: white;
+    margin-top: 55px;
+    padding: 0px 148px;
+    font-size: 1.5rem;
+
+    
+}
+.background-bottom{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    z-index: 20;
+    padding: 0px 148px;
+    
+}
+
+.cards img{
+    width: 180px;
+    height: 252px;
+    /* margin-top: -25rem; */
+    border-radius: 10px;
+   
+}
+h2{
+    display: block;
+    color: white;
+    padding: 0px 148px;
+}
+.cards-container{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    z-index: 20;
+    padding: 0px 148px;
+}
+.card1{
+    /* justify-content: space-evenly; */
+    /* display: inline-block; */
+    height: 240px;
+    width: 250px;
+    background-color: white;
+    border: 1px solid black;
+    margin-left: 10px;
+    border-radius: 15px;
+    background: radial-gradient(80% 600% at 60% -420%, rgba(64, 97, 231, 0.4) 80%, rgba(0, 0, 0, 0.1) 100%), rgb(39, 9, 42);
+}
+.card1 h3{
+    font-size: 1.6rem;
+    margin-left: 10px;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+.card1 p{
+    color: black;   
+    margin-left: 10px;
+    color: white;
+    opacity: 0.6;
+    margin-top: -0.6rem;
+    font-size: 0.9rem;
+}
+.questions{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ques{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70rem;
+    height: 4rem;
+    text-align: left;
+   margin-bottom: 10px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    background-color: #302c2c;
+    border: none;
+}
+.ques p{ font-size: 1.6rem;
+}
+.ques i{
+    font-size: 2rem;
+}
+.bottom-email input{
+    width: 550px;
+    
+}
+.bottom-bio{
+    margin-top: 3rem;
+}
+.bottom-bio p{
+    font-size: 1.2rem;
+}
+.bottom-email input::placeholder{
+    padding-left: 10px;
+}
+h4{
+    margin-top: 5rem;
+    padding: 0px 148px;
+    color: white;
+    opacity: 0.8;
+    font-size: 1rem;
+    /* text-align: left; */
+    font-weight: 300;
+}
+span{
+    text-decoration: underline;
+}
+.footer-nav{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    height: 140px;
+    width: 900px;
+    /* text-align: left; */
+}
+.footer-nav ul li a{
+    color: white;
+    text-align: left;
+    opacity: 0.8;
+    font-size: 0.9rem;
+    width: 112px;
+}
+.footer-nav ul li{
+    margin-bottom: 10px;
+    text-align: left;
+    width: 150px;
+}
+.footer-nav .col{
+    margin-right: 2rem;
+    margin-left: -7rem;
+}
+.footer-lang{
+    display: flex;
+    justify-content: start;
+    margin-left: 10rem;
+    
+}
+#select-two{
+    margin-top: 2rem;
+    width: 112px;
+    height: 32px;
+    background-color: transparent;
+    color: white;
+    opacity: 0.8 ;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.footer-netflix{
+    display: flex;
+    justify-content: start;
+}
+.netflix{
+    /* display: flex; */
+    font-size: 0.9rem;
+    opacity: 0.8;
+    font-weight: 300;
+    text-align: left;
+    margin-left: 10rem;
+}
